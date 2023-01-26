@@ -1,0 +1,6 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/eloquent/lib/python3.6/site-packages"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/src/cpp_pubsub"
+}
