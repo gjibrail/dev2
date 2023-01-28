@@ -1,5 +1,0 @@
-CMake Error at cmake_install.cmake:101 (file):
-  file INSTALL cannot find "/home/nanobot1/dev2/src/cpp_pubsub/launch".
-
-
-make: *** [install] Error 1
