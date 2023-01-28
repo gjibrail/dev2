@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000492] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000693] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.068873] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.073144] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.076747] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nanobot1/dev2/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/nanobot1/dev2/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/nanobot1'), ('USER', 'nanobot1'), ('SSH_CLIENT', '192.168.55.100 64695 22'), ('GIT_ASKPASS', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('BROWSER', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/helpers/browser.sh'), ('SHLVL', '4'), ('HOME', '/home/nanobot1'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0a9eeda3-88c6-44fb-92ae-4dffd21bab4f.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/nanobot1/ros2_install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'nanobot1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/home/nanobot1/.local/bin:/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nanobot1/.local/bin:/home/nanobot1/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6a95138fdd.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('ROS_DOMAIN_ID', '99'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nanobot1/dev2/build/cpp_pubsub'), ('SSH_CONNECTION', '192.168.55.100 64695 192.168.55.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.094465] (-) TimerEvent: {}
+[0.184662] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.194676] (-) TimerEvent: {}
+[0.295033] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.295802] (-) TimerEvent: {}
+[0.396396] (-) TimerEvent: {}
+[0.497138] (-) TimerEvent: {}
+[0.597863] (-) TimerEvent: {}
+[0.699619] (-) TimerEvent: {}
+[0.800354] (-) TimerEvent: {}
+[0.901081] (-) TimerEvent: {}
+[1.001793] (-) TimerEvent: {}
+[1.102558] (-) TimerEvent: {}
+[1.203278] (-) TimerEvent: {}
+[1.304009] (-) TimerEvent: {}
+[1.404720] (-) TimerEvent: {}
+[1.453318] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[1.499392] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.504909] (-) TimerEvent: {}
+[1.605570] (-) TimerEvent: {}
+[1.630278] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.635591] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.705798] (-) TimerEvent: {}
+[1.753561] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)\n'}
+[1.805974] (-) TimerEvent: {}
+[1.903857] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[1.907206] (-) TimerEvent: {}
+[2.007899] (-) TimerEvent: {}
+[2.108688] (-) TimerEvent: {}
+[2.209427] (-) TimerEvent: {}
+[2.213672] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[2.217471] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.218247] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.221122] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.223373] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.226772] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.227939] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.237664] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.309608] (-) TimerEvent: {}
+[2.312774] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[2.319444] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/nanobot1/dev2/build/cpp_pubsub\n'}
+[2.403939] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[2.409791] (-) TimerEvent: {}
+[2.458381] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[2.498898] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[2.510047] (-) TimerEvent: {}
+[2.610904] (-) TimerEvent: {}
+[2.711671] (-) TimerEvent: {}
+[2.812478] (-) TimerEvent: {}
+[2.913281] (-) TimerEvent: {}
+[3.014141] (-) TimerEvent: {}
+[3.114918] (-) TimerEvent: {}
+[3.215757] (-) TimerEvent: {}
+[3.316625] (-) TimerEvent: {}
+[3.417559] (-) TimerEvent: {}
+[3.518424] (-) TimerEvent: {}
+[3.619264] (-) TimerEvent: {}
+[3.720073] (-) TimerEvent: {}
+[3.820931] (-) TimerEvent: {}
+[3.921774] (-) TimerEvent: {}
+[4.022689] (-) TimerEvent: {}
+[4.123488] (-) TimerEvent: {}
+[4.224348] (-) TimerEvent: {}
+[4.325175] (-) TimerEvent: {}
+[4.426002] (-) TimerEvent: {}
+[4.526812] (-) TimerEvent: {}
+[4.627635] (-) TimerEvent: {}
+[4.728411] (-) TimerEvent: {}
+[4.829242] (-) TimerEvent: {}
+[4.930065] (-) TimerEvent: {}
+[5.031001] (-) TimerEvent: {}
+[5.131812] (-) TimerEvent: {}
+[5.232635] (-) TimerEvent: {}
+[5.333459] (-) TimerEvent: {}
+[5.434217] (-) TimerEvent: {}
+[5.535106] (-) TimerEvent: {}
+[5.635911] (-) TimerEvent: {}
+[5.736733] (-) TimerEvent: {}
+[5.837602] (-) TimerEvent: {}
+[5.938436] (-) TimerEvent: {}
+[6.039308] (-) TimerEvent: {}
+[6.140125] (-) TimerEvent: {}
+[6.240950] (-) TimerEvent: {}
+[6.341800] (-) TimerEvent: {}
+[6.442741] (-) TimerEvent: {}
+[6.543494] (-) TimerEvent: {}
+[6.644262] (-) TimerEvent: {}
+[6.745142] (-) TimerEvent: {}
+[6.845959] (-) TimerEvent: {}
+[6.946779] (-) TimerEvent: {}
+[7.047605] (-) TimerEvent: {}
+[7.148429] (-) TimerEvent: {}
+[7.249254] (-) TimerEvent: {}
+[7.350078] (-) TimerEvent: {}
+[7.450951] (-) TimerEvent: {}
+[7.551768] (-) TimerEvent: {}
+[7.652615] (-) TimerEvent: {}
+[7.753481] (-) TimerEvent: {}
+[7.854229] (-) TimerEvent: {}
+[7.955082] (-) TimerEvent: {}
+[8.055906] (-) TimerEvent: {}
+[8.156650] (-) TimerEvent: {}
+[8.257489] (-) TimerEvent: {}
+[8.358325] (-) TimerEvent: {}
+[8.459175] (-) TimerEvent: {}
+[8.559990] (-) TimerEvent: {}
+[8.660794] (-) TimerEvent: {}
+[8.761608] (-) TimerEvent: {}
+[8.862351] (-) TimerEvent: {}
+[8.963217] (-) TimerEvent: {}
+[9.064016] (-) TimerEvent: {}
+[9.164822] (-) TimerEvent: {}
+[9.265625] (-) TimerEvent: {}
+[9.366425] (-) TimerEvent: {}
+[9.467346] (-) TimerEvent: {}
+[9.568079] (-) TimerEvent: {}
+[9.668885] (-) TimerEvent: {}
+[9.769689] (-) TimerEvent: {}
+[9.870422] (-) TimerEvent: {}
+[9.971279] (-) TimerEvent: {}
+[10.072080] (-) TimerEvent: {}
+[10.172883] (-) TimerEvent: {}
+[10.273632] (-) TimerEvent: {}
+[10.374532] (-) TimerEvent: {}
+[10.475322] (-) TimerEvent: {}
+[10.576120] (-) TimerEvent: {}
+[10.676904] (-) TimerEvent: {}
+[10.777686] (-) TimerEvent: {}
+[10.878487] (-) TimerEvent: {}
+[10.979284] (-) TimerEvent: {}
+[10.998641] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[11.079463] (-) TimerEvent: {}
+[11.180342] (-) TimerEvent: {}
+[11.281250] (-) TimerEvent: {}
+[11.382010] (-) TimerEvent: {}
+[11.482762] (-) TimerEvent: {}
+[11.583514] (-) TimerEvent: {}
+[11.660001] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[11.683706] (-) TimerEvent: {}
+[11.699220] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[11.783930] (-) TimerEvent: {}
+[11.790689] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[11.830140] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nanobot1/dev2/build/cpp_pubsub', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/nanobot1/dev2/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/nanobot1'), ('USER', 'nanobot1'), ('SSH_CLIENT', '192.168.55.100 64695 22'), ('GIT_ASKPASS', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('BROWSER', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/helpers/browser.sh'), ('SHLVL', '4'), ('HOME', '/home/nanobot1'), ('TERM_PROGRAM_VERSION', '1.74.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0a9eeda3-88c6-44fb-92ae-4dffd21bab4f.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/nanobot1/ros2_install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'nanobot1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nanobot1/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/home/nanobot1/.local/bin:/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nanobot1/.local/bin:/home/nanobot1/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6a95138fdd.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('ROS_DOMAIN_ID', '99'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nanobot1/dev2/build/cpp_pubsub'), ('SSH_CONNECTION', '192.168.55.100 64695 192.168.55.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[11.884198] (-) TimerEvent: {}
+[11.985655] (-) TimerEvent: {}
+[12.040317] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[12.041177] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[12.086012] (-) TimerEvent: {}
+[12.107549] (cpp_pubsub) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[12.138905] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.143074] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[12.146975] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[12.147786] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[12.150663] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[12.151607] (cpp_pubsub) StderrLine: {'line': b'CMake Error at cmake_install.cmake:101 (file):\n'}
+[12.152285] (cpp_pubsub) StderrLine: {'line': b'  file INSTALL cannot find "/home/nanobot1/dev2/src/cpp_pubsub/launch".\n'}
+[12.152860] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[12.153418] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[12.154819] (cpp_pubsub) StderrLine: {'line': b'make: *** [install] Error 1\n'}
+[12.158844] (cpp_pubsub) StdoutLine: {'line': b"Makefile:73: recipe for target 'install' failed\n"}
+[12.161324] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[12.186346] (-) TimerEvent: {}
+[12.291419] (-) TimerEvent: {}
+[12.363452] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[12.376388] (-) EventReactorShutdown: {}

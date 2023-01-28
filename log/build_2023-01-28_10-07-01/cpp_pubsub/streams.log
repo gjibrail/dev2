@@ -1,0 +1,29 @@
+[0.061s] Invoking command in '/home/nanobot1/dev2/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/nanobot1/dev2/build/cpp_pubsub -- -j4 -l4
+[0.276s] [100%] Built target listener
+[0.277s] [100%] Built target talker
+[0.316s] Invoked command in '/home/nanobot1/dev2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/nanobot1/dev2/build/cpp_pubsub -- -j4 -l4
+[0.449s] Invoking command in '/home/nanobot1/dev2/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/nanobot1/dev2/build/cpp_pubsub --target install -- -j4 -l4
+[0.653s] [100%] Built target talker
+[0.654s] [100%] Built target listener
+[0.720s] [36mInstall the project...[0m
+[0.752s] -- Install configuration: ""
+[0.753s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.754s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.756s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.756s] -- Installing: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub//launch
+[0.757s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.758s] -- Installing: /home/nanobot1/dev2/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.758s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.759s] -- Installing: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.760s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.760s] -- Installing: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.761s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.762s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.764s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.764s] -- Installing: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.765s] -- Installing: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.765s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.766s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.766s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.767s] -- Up-to-date: /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.775s] Invoked command in '/home/nanobot1/dev2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/nanobot1/dev2/build/cpp_pubsub --target install -- -j4 -l4
