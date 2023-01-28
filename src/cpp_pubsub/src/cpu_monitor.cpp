@@ -8,7 +8,7 @@ public:
   CPUMonitor() : Node("cpu_monitor")
   {
     publisher_ = this->create_publisher<std_msgs::msg::Float64>("cpu_utilization", 10);
-    timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&CPUMonitor::timer_callback, this));
+    timer_ = this->create_wall_timer(std::chrono::seconds(2), std::bind(&CPUMonitor::timer_callback, this));
   }
 
 private:
