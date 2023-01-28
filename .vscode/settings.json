@@ -5,5 +5,8 @@
     "cmake.sourceDirectory": "${workspaceFolder}/src/cpp_pubsub",
     "python.analysis.extraPaths": [
         "/opt/ros/eloquent/lib/python3.6/site-packages"
-    ]
+    ],
+    "files.associations": {
+        "memory": "cpp"
+    }
 }

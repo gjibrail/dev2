@@ -38,6 +38,13 @@ install(TARGETS
   listener
   DESTINATION lib/${PROJECT_NAME})
 
+add_executable(monitor src/cpu_monitor.cpp)
+ament_target_dependencies(monitor rclcpp std_msgs)
+
+install(TARGETS
+  monitor
+  DESTINATION lib/${PROJECT_NAME})
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

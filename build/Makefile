@@ -101,6 +101,17 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -123,17 +134,6 @@ test:
 test/fast: test
 
 .PHONY : test/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -219,6 +219,46 @@ talker/fast:
 	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
 .PHONY : talker/fast
 
+#=============================================================================
+# Target rules for targets named monitor
+
+# Build rule for target.
+monitor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 monitor
+.PHONY : monitor
+
+# fast build rule for target.
+monitor/fast:
+	$(MAKE) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/build
+.PHONY : monitor/fast
+
+src/cpu_monitor.o: src/cpu_monitor.cpp.o
+
+.PHONY : src/cpu_monitor.o
+
+# target to build an object file
+src/cpu_monitor.cpp.o:
+	$(MAKE) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/src/cpu_monitor.cpp.o
+.PHONY : src/cpu_monitor.cpp.o
+
+src/cpu_monitor.i: src/cpu_monitor.cpp.i
+
+.PHONY : src/cpu_monitor.i
+
+# target to preprocess a source file
+src/cpu_monitor.cpp.i:
+	$(MAKE) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/src/cpu_monitor.cpp.i
+.PHONY : src/cpu_monitor.cpp.i
+
+src/cpu_monitor.s: src/cpu_monitor.cpp.s
+
+.PHONY : src/cpu_monitor.s
+
+# target to generate assembly for a file
+src/cpu_monitor.cpp.s:
+	$(MAKE) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/src/cpu_monitor.cpp.s
+.PHONY : src/cpu_monitor.cpp.s
+
 src/publisher_member_function.o: src/publisher_member_function.cpp.o
 
 .PHONY : src/publisher_member_function.o
@@ -283,13 +323,17 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... cpp_pubsub_uninstall"
 	@echo "... listener"
 	@echo "... uninstall"
 	@echo "... talker"
+	@echo "... monitor"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... edit_cache"
+	@echo "... src/cpu_monitor.o"
+	@echo "... src/cpu_monitor.i"
+	@echo "... src/cpu_monitor.s"
 	@echo "... src/publisher_member_function.o"
 	@echo "... src/publisher_member_function.i"
 	@echo "... src/publisher_member_function.s"

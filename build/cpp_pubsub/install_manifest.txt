@@ -1,6 +1,7 @@
 /home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/talker
 /home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/talker
 /home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/listener
+/home/nanobot1/dev2/install/cpp_pubsub/lib/cpp_pubsub/monitor
 /home/nanobot1/dev2/install/cpp_pubsub/share/cpp_pubsub//launch/my_script.launch.py
 /home/nanobot1/dev2/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
 /home/nanobot1/dev2/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
